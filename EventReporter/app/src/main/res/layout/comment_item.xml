@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- contains normal comments-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- 1: user icon-->
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/icon"/>
+    <!-- 2: comment information-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:orientation="vertical">
+        <!-- 2.1: username, time, like-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/comment_item_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="hannah_wang"
+                android:textSize="16sp"
+                android:textColor="#3F89E7"
+                android:fontFamily="Roboto"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true">
+                <TextView
+                    android:id="@+id/comment_item_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 minutes ago"
+                    android:paddingRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="#939393"
+                    android:fontFamily="Roboto"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/comment_item_good"
+                    android:src="@drawable/like"/>
+                <TextView
+                    android:id="@+id/comment_item_good_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:paddingLeft="5dp"
+                    android:textSize="16sp"
+                    android:textColor="#939393"
+                    android:fontFamily="Roboto"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- 2.2: comment-->
+        <TextView
+            android:id="@+id/comment_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:textSize="11sp"
+            android:fontFamily="Roboto"
+            android:textColor="#2A2C30"/>
+    </LinearLayout>
+</LinearLayout>

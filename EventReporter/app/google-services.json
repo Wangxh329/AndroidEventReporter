@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "777947092193",
+    "firebase_url": "https://eventreporter-a8c0a.firebaseio.com",
+    "project_id": "eventreporter-a8c0a",
+    "storage_bucket": "eventreporter-a8c0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777947092193:android:d878ed4c71a400ef",
+        "android_client_info": {
+          "package_name": "com.example.hamburger_w.eventreporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777947092193-70g48gvo6n61vgopf7reqrakbmkcf6m8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hamburger_w.eventreporter",
+            "certificate_hash": "d40a01715c14822f0af0c83c72cfb224092e069f"
+          }
+        },
+        {
+          "client_id": "777947092193-n1dlk8me1mlhb9oo6mmiomc90keed3hh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS2QnDynngFLTCFM5Q5KqHC6UgbcVPOuY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777947092193-n1dlk8me1mlhb9oo6mmiomc90keed3hh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
