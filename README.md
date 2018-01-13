@@ -42,11 +42,13 @@ Use Google Firebase Database to store and manage UGC:
 ### events
 
 <img src="https://raw.githubusercontent.com/Wangxh329/AndroidEventReporter/master/EventReporter/doc/events.png" width="577px" height="669px" alt="events collection design">
+
 > events collection design
 
 ### comments
 
 <img src="https://raw.githubusercontent.com/Wangxh329/AndroidEventReporter/master/EventReporter/doc/comments.png" width="577px" height="750px" alt="comments collection design">
+
 > comments collection design
 
 ## Implementation Details
@@ -67,24 +69,29 @@ Use Google Firebase Database to store and manage UGC:
 ### Login and register
 
 <img src="https://raw.githubusercontent.com/Wangxh329/AndroidEventReporter/master/EventReporter/doc/login.png" width="480px" height="853px" alt="login and register activity">
+
 > login and register activity
 
 ### Show all events
 
 <img src="https://raw.githubusercontent.com/Wangxh329/AndroidEventReporter/master/EventReporter/doc/eventlist.png" width="480px" height="853px" alt="events fragment">
+
 > events fragment
 
 ### Event details and make comments
 
 <img src="https://raw.githubusercontent.com/Wangxh329/AndroidEventReporter/master/EventReporter/doc/comment.png" width="480px" height="853px" alt="comment activity">
+
 > comment activity
 
 ### Report new event
 
 <img src="https://raw.githubusercontent.com/Wangxh329/AndroidEventReporter/master/EventReporter/doc/report.png" width="480px" height="853px" alt="event report activity">
+
 > event report activity
 
 ### Show nearby events in Google Map
 
 <img src="https://raw.githubusercontent.com/Wangxh329/AndroidEventReporter/master/EventReporter/doc/map.png" width="480px" height="853px" alt="event map fragment">
+
 > event map fragment
