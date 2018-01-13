@@ -36,6 +36,7 @@ Use Google Firebase Database to store and manage UGC:
 ### users
 
 <img src="https://raw.githubusercontent.com/Wangxh329/AndroidEventReporter/master/EventReporter/doc/users.png" width="577px" height="277px" alt="users collection design">
+
 > users collection design
 
 ### events
